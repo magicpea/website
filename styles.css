@@ -1,0 +1,199 @@
+body {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    background-color: #0d1a26;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0d1a26;
+    display: block;
+    z-index: 5;
+    filter: drop-shadow(0px 1px 2px #0d1a26);
+  }
+
+li {
+    float: left;
+  }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-size: 24px;
+  }
+
+
+li a:hover {
+    background-color: #111;
+  }
+
+ .topbar {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+
+.topcontainer {
+    background-image: url(/images/Capture\ d’écran\ 2020-08-14\ à\ 3.32.03\ PM.png);
+    background-size: cover;
+    width: 100%;
+  }
+
+.topdiv, .topcontainer{
+  height: 900px;
+}
+
+.topdiv {
+  width: 100%;
+  background-color: #0d1a26;
+  opacity: 0.83;
+}
+
+
+.welcometext > h2 {
+  font-weight: lighter;
+}
+
+#line1 {
+  font-size: 100px;
+}
+
+#line2, #line3 {
+  font-size: 100px;
+}
+
+.welcometext {
+  padding-top: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.profilepicture {
+  background-color: aliceblue;
+  width: 375px;
+  margin-left: 520px;
+}
+
+.homepagecontainer {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    background-color: green;
+    display: inline-block;
+  }
+
+.profilepicture > img {
+  width: 375px;
+  height: 375px;
+}
+
+  #aboutme {
+    padding-left: 70px;
+    padding-top: 120px;
+    padding-right: 50px;
+    display: inline-block;
+    position: absolute;
+    font-style: italic;
+    opacity: 1;
+  }
+
+  #aboutmetitle {
+    padding-left: 70px;
+    padding-top: 25px;
+    padding-right: 50px;
+    display: inline-block;
+    position: absolute;
+    font-size: 50px;
+    font-weight: lighter;
+    opacity: 1;
+  }
+
+  #involvementtitle {
+    padding-left: 100px;
+    padding-top: 25px;
+    padding-right: 70px;
+    display: inline-block;
+    position: absolute;
+    font-size: 50px;
+    font-weight: lighter;s
+    opacity: 1;
+  }
+
+#involvement {
+  float: left;
+  padding-left: 100px;
+  padding-top: 120px;
+  padding-right: 600px;
+  display: inline-block;
+  position: absolute;
+  font-style: italic;
+  opacity: 1;
+}
+#outsideintereststitle {
+  padding-left: 70px;
+    padding-top: 25px;
+    padding-right: 50px;
+    display: inline-block;
+    position: absolute;
+    font-size: 50px;
+    font-weight: lighter;
+    opacity: 1;
+}
+
+#outsideinterests {
+  padding-left: 70px;
+    padding-top: 120px;
+    padding-right: 50px;
+    display: inline-block;
+    position: absolute;
+    font-style: italic;
+    opacity: 1;
+}
+
+.aboutmediv {
+  z-index: -4;
+  overflow: hidden;
+}
+
+.involvementdiv {
+  z-index: -4;
+  overflow: hidden;
+}
+
+.outsideinterestsdiv {
+  z-index: -4;
+  overflow: hidden;
+}
+
+img {
+  opacity: 0.9;
+  overflow: hidden;
+}
+
+hr {
+  color: white;
+  overflow: hidden;
+  opacity: 0.9;
+  width: 90%;
+}
+
+#aboutme, #involvement, #outsideinterests {
+  font-size: 30px;
+}
